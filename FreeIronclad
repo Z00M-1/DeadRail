@@ -1,12 +1,12 @@
 -- hello skid
 local args = {
-    [1] = "Ironclad"
+    [1] = "Horse"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Shared"):WaitForChild("RemotePromise"):WaitForChild("Remotes"):WaitForChild("C_BuyClass"):FireServer(unpack(args))
 task.wait()
 local args = {
-    [1] = "Ironclad"
+    [1] = "Horse"
 }
 
 game:GetService("ReplicatedStorage").Shared.RemotePromise.Remotes.C_EquipClass:FireServer(unpack(args))
